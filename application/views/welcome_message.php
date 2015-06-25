@@ -3,9 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"?>
+	</script>
+	
+	<script type="text/javascript" src="../js/chat.js"?>
+	</script>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -71,15 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>I'm making changes!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
